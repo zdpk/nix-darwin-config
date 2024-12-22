@@ -26,7 +26,9 @@
     brews = [
       # for searching app id registered on mac app store
       "mas"
-      "fish"
+      "pulumi"
+      "yq"
+      "jq"
       # "terraform"
     ];
 
@@ -55,12 +57,19 @@
       # fonts
       "font-geist-mono-nerd-font"
       "font-fira-code-nerd-font"
+      "gather"
+      "rustdesk"
     ];
 
     masApps = {
       "KakaoTalk" = 869223134;
       "ChannelTalk" = 1102655071;
       "Perplexity" = 6714467650;
+      "밀리의 서재" = 1213788923;
+      "Ridi" = 338813698;
+      "Taza" = 452941048;
+      "Final Cut" = 424389933;
+      "Pixelmator Pro" = 1289583905;
     };
   };
 }

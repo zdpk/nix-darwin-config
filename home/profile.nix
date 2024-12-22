@@ -4,6 +4,10 @@
     shell = pkgs.zsh;
   };
 
+  programs.zsh = {
+    enable = true;
+  };
+
   environment = {
     variables = {
       EDITOR = vars.editor;
