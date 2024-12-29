@@ -8,6 +8,7 @@
 
   # Apps
   environment.systemPackages = with pkgs; [
+    cloc
     awscli2
     mkalias
     neovim
@@ -41,6 +42,7 @@
     poetry
     lefthook
     dprint
+    docker
   ];
 
   users.users.${vars.user} = {
