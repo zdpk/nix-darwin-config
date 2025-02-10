@@ -8,6 +8,7 @@
 
   # Apps
   environment.systemPackages = with pkgs; [
+    zellij
     cloc
     awscli2
     mkalias

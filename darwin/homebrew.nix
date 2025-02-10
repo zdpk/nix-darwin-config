@@ -29,14 +29,18 @@
       "pulumi"
       "yq"
       "jq"
+      "postgresql"
+      "cocoapods"
+      "terraform-ls"
       # "terraform"
     ];
 
     casks = [
-      "alacritty"
+      "flutter"
       "firefox"
       "wezterm"
       "raycast"
+      "obs"
       "chatgpt"
       "claude"
       "google-chrome"
@@ -60,6 +64,10 @@
       "font-fira-code-nerd-font"
       "gather"
       "rustdesk"
+      "datagrip"
+      "orbstack"
+      "ghostty"
+      "vrew"
     ];
 
     masApps = {
@@ -71,6 +79,8 @@
       "Taza" = 452941048;
       "Final Cut" = 424389933;
       "Pixelmator Pro" = 1289583905;
+      "XCode" = 497799835;
+      "Compressor" = 424390742;
     };
   };
 }
